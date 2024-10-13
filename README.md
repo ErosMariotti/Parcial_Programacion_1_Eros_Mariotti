@@ -1,5 +1,3 @@
-# Parcial_Programacion_1_Eros_Mariotti
-
 # Parcial1Programacion
 
 # DNA Mutant Detector
