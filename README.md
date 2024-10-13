@@ -107,6 +107,8 @@ Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
 ’’’./gradlew test’’’
 
+’’’ git clone ... ’’’
+
 # Diagrama de Secuencia / Arquitectura del sistema.
 
 Documentación en formato pdf: https://drive.google.com/file/d/1UyV5Kl7OUCPP2_kWgHGFMSGWR9_5zkQ1/view?usp=sharing
