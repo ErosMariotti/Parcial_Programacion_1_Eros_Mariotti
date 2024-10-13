@@ -33,17 +33,23 @@ La tabla cuenta con:
 
 # Endpoints 
 
-- Mostrar estadísticas: GET /stats
+Mostrar estadísticas:
+
+- GET /stats
 
 ¿Qué devolvería?
 
+
 {
     "count_human_dna": 0,
-    "count_mutant_dna": 1,
+    "count_mutant_dna": 0,
     "ratio": 0.0
 }
 
-- Validar si una secuencia es mutante: POST /mutant
+
+Validar si una secuencia es mutante:
+
+- POST /mutant
 
 {
     "dna": [
