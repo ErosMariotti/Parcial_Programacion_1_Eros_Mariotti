@@ -35,7 +35,7 @@ La tabla cuenta con:
 
 Mostrar estadísticas:
 
-’’’GET /stats’’’
+'''GET /stats'''
 
 ¿Qué devolvería?
 
