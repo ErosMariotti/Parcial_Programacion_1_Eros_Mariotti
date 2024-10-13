@@ -8,7 +8,7 @@ FROM alpine:latest as build
 RUN apk update
 RUN apk add openjdk17
 
-COPY build/libs/parcial_programacion_1-0.0.1-SNAPSHOT.jar  parcial_programacion_1
+COPY . .
 RUN chmod +x ./gradlew
 RUN ./gradlew bootJar --no-daemon
 

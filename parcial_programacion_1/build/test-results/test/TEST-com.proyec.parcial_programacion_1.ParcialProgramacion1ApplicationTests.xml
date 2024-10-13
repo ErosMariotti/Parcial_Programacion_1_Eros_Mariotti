@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-10-13T03:49:07" hostname="PC" time="0.699">
+<testsuite name="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-10-13T14:13:20" hostname="PC" time="1.13">
   <properties/>
-  <testcase name="testArrayVacio()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.37"/>
-  <testcase name="testArrayNull()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.002"/>
-  <testcase name="testArrayNxM()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.146"/>
-  <testcase name="testArrayConNumeros()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.002"/>
-  <testcase name="testArrayConNulls()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.002"/>
-  <testcase name="contextLoads()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.001"/>
-  <testcase name="testNoMutante1()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.011"/>
-  <testcase name="testNoMutante3()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.004"/>
-  <testcase name="testArrayConLetrasInvalidas()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.002"/>
-  <testcase name="testMutant()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.12"/>
-  <testcase name="testMutante1()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.004"/>
-  <testcase name="testMutante2()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.004"/>
-  <testcase name="testMutante3()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.003"/>
-  <testcase name="testMutante4()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.005"/>
-  <testcase name="testMutante5()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.004"/>
-  <testcase name="testNotMutant()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
-  <system-out><![CDATA[00:49:03.808 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests]: ParcialProgramacion1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-00:49:03.907 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.proyec.parcial_programacion_1.ParcialProgramacion1Application for test class com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests
+  <testcase name="testArrayVacio()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.57"/>
+  <testcase name="testArrayNull()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.003"/>
+  <testcase name="testArrayNxM()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.251"/>
+  <testcase name="testArrayConNumeros()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.008"/>
+  <testcase name="testArrayConNulls()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
+  <testcase name="contextLoads()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
+  <testcase name="testNoMutante1()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.016"/>
+  <testcase name="testNoMutante3()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
+  <testcase name="testArrayConLetrasInvalidas()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
+  <testcase name="testMutant()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.164"/>
+  <testcase name="testMutante1()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.009"/>
+  <testcase name="testMutante2()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.008"/>
+  <testcase name="testMutante3()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.018"/>
+  <testcase name="testMutante4()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.006"/>
+  <testcase name="testMutante5()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.012"/>
+  <testcase name="testNotMutant()" classname="com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests" time="0.02"/>
+  <system-out><![CDATA[11:13:16.230 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests]: ParcialProgramacion1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:13:16.358 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.proyec.parcial_programacion_1.ParcialProgramacion1Application for test class com.proyec.parcial_programacion_1.ParcialProgramacion1ApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -29,25 +29,25 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-10-13T00:49:04.271-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : Starting ParcialProgramacion1ApplicationTests using Java 17.0.8 with PID 13548 (started by Usuario in F:\FACU 2024\Parcial_Programacion_1_Eros_Mariotti\parcial_programacion_1)
-2024-10-13T00:49:04.272-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2024-10-13T00:49:04.800-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-13T00:49:04.848-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
-2024-10-13T00:49:05.232-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-13T00:49:05.290-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-13T00:49:05.324-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-10-13T00:49:05.628-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-13T00:49:05.655-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-13T00:49:05.840-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/mutants_dataBase user=SA
-2024-10-13T00:49:05.841-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-13T00:49:06.641-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-13T00:49:06.665-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-13T00:49:07.035-03:00  WARN 13548 --- [parcial_programacion_1] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-13T00:49:07.315-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mutants_dataBase'
-2024-10-13T00:49:07.360-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-10-13T00:49:07.361-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-10-13T00:49:07.363-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-10-13T00:49:07.385-03:00  INFO 13548 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : Started ParcialProgramacion1ApplicationTests in 3.338 seconds (process running for 4.393)
+2024-10-13T11:13:16.728-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : Starting ParcialProgramacion1ApplicationTests using Java 17.0.8 with PID 9496 (started by Usuario in F:\FACU 2024\Parcial_Programacion_1_Eros_Mariotti\parcial_programacion_1)
+2024-10-13T11:13:16.730-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-13T11:13:17.288-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-13T11:13:17.343-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-10-13T11:13:17.747-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-13T11:13:17.806-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-13T11:13:17.843-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-13T11:13:18.152-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-13T11:13:18.181-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-13T11:13:18.371-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/mutants_dataBase user=SA
+2024-10-13T11:13:18.374-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-13T11:13:19.194-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-13T11:13:19.218-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T11:13:19.632-03:00  WARN 9496 --- [parcial_programacion_1] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-13T11:13:19.974-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mutants_dataBase'
+2024-10-13T11:13:20.022-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-13T11:13:20.023-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-13T11:13:20.028-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-10-13T11:13:20.055-03:00  INFO 9496 --- [parcial_programacion_1] [    Test worker] p.p.ParcialProgramacion1ApplicationTests : Started ParcialProgramacion1ApplicationTests in 3.541 seconds (process running for 4.68)
 Hibernate: select d1_0.id,d1_0.dna,d1_0.is_mutant from dna d1_0 where d1_0.dna=?
 Hibernate: select d1_0.id,d1_0.dna,d1_0.is_mutant from dna d1_0 where d1_0.dna=?
 Hibernate: select d1_0.id,d1_0.dna,d1_0.is_mutant from dna d1_0 where d1_0.dna=?
