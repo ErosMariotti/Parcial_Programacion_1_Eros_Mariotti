@@ -28,21 +28,21 @@ Los tests unitarios se encuentran en la clase ParcialProgramacion1ApplicationTes
 # Manejo de Errores
 Antes de realizar la detección, se llevan a cabo varias validaciones en la entrada:
 
-Array vacío: Verifica que se lance una excepción cuando el array de ADN está vacío.
-Array NxM: Verifica que se lance una excepción cuando el array de ADN no es cuadrado.
-Array con números: Verifica que se lance una excepción cuando el array de ADN contiene caracteres inválidos.
-Array nulo: Verifica que se lance una excepción cuando el array de ADN es null.
-Array con filas nulas: Verifica que se lance una excepción cuando alguna fila del array de ADN es null.
-Array con caracteres no válidos: Verifica que se lance una excepción cuando el array de ADN contiene caracteres diferentes a 'A', 'T', 'C', 'G'.
+- Array vacío: Verifica que se lance una excepción cuando el array de ADN está vacío.
+- Array NxM: Verifica que se lance una excepción cuando el array de ADN no es cuadrado.
+- Array con números: Verifica que se lance una excepción cuando el array de ADN contiene caracteres inválidos.
+- Array nulo: Verifica que se lance una excepción cuando el array de ADN es null.
+- Array con filas nulas: Verifica que se lance una excepción cuando alguna fila del array de ADN es null.
+- Array con caracteres no válidos: Verifica que se lance una excepción cuando el array de ADN contiene caracteres diferentes a 'A', 'T', 'C', 'G'.
 
 # Casos de Prueba
-Caso 1: Mutante: Verifica que una secuencia de ADN con múltiples secuencias repetitivas sea detectada como mutante.
-Caso 2: No Mutante: Verifica otro caso de secuencia de ADN mutante.
-Caso 3: Mutante: Verifica caso de secuencia de ADN mutante.
-Caso 4: Mutante: Verifica caso de secuencia de ADN mutante.
-Caso 5: No Mutante: Verifica caso de secuencia de ADN mutante.
-Caso 6: Mutante: Verifica caso de secuencia de ADN mutante.
-Caso 7: Mutante: Verifica caso de secuencia de ADN mutante.
+- Caso 1: Mutante: Verifica que una secuencia de ADN con múltiples secuencias repetitivas sea detectada como mutante.
+- Caso 2: No Mutante: Verifica otro caso de secuencia de ADN mutante.
+- Caso 3: Mutante: Verifica caso de secuencia de ADN mutante.
+- Caso 4: Mutante: Verifica caso de secuencia de ADN mutante.
+- Caso 5: No Mutante: Verifica caso de secuencia de ADN mutante.
+- Caso 6: Mutante: Verifica caso de secuencia de ADN mutante.
+- Caso 7: Mutante: Verifica caso de secuencia de ADN mutante.
 
 # Ejecución de Tests
 Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
