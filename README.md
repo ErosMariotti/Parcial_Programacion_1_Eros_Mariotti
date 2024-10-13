@@ -49,9 +49,15 @@ GET /stats
 
 Validar si una secuencia es mutante:
 
+
+
 POST /mutant
 
+
+
 Body:
+
+
 
 {
     "dna": [
@@ -62,11 +68,17 @@ Body:
     ]
 }
 
+
+
 ¿Qué devolvería?
+
+
 
 {
     "mutant": false
 }
+
+
 
 # API Render
 
