@@ -8,13 +8,19 @@ La clase MutantService implementa la lógica para verificar si una secuencia de 
 
 # Estructura del Proyecto
 
-src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1Application.java: Clase principal que inicia la aplicación Spring Boot.
-src/main/java/com/proyec/parcial_programacion_1/service/MutantService.java: Clase que contiene la lógica para determinar si una secuencia de ADN es mutante o no.
-src/main/java/com/proyec/parcial_programacion_1/service/StatsService.java: Clase que proporciona estadísticas sobre las secuencias de ADN analizadas.
-src/main/java/com/proyec/parcial_programacion_1/service/ValidationsService.java: Clase encargada de validar la entrada de datos del ADN.
-src/main/java/com/proyec/parcial_programacion_1/repositories/MutantRepository.java: Interfaz que gestiona la interacción con la base de datos H2 para almacenar secuencias analizadas.
-src/main/java/com/proyec/parcial_programacion_1/config/SwaggerConfig: Clase que implementa Swagger. 
-src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1ApplicationTests.java: Clase que contiene los 16 tests unitarios para validar la funcionalidad del detector de mutantes.
+- src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1Application.java: Clase principal que inicia la aplicación Spring Boot.
+  
+- src/main/java/com/proyec/parcial_programacion_1/service/MutantService.java: Clase que contiene la lógica para determinar si una secuencia de ADN es mutante o no.
+  
+- src/main/java/com/proyec/parcial_programacion_1/service/StatsService.java: Clase que proporciona estadísticas sobre las secuencias de ADN analizadas.
+  
+- src/main/java/com/proyec/parcial_programacion_1/service/ValidationsService.java: Clase encargada de validar la entrada de datos del ADN.
+  
+- src/main/java/com/proyec/parcial_programacion_1/repositories/MutantRepository.java: Interfaz que gestiona la interacción con la base de datos H2 para almacenar secuencias analizadas.
+  
+- src/main/java/com/proyec/parcial_programacion_1/config/SwaggerConfig: Clase que implementa Swagger.
+  
+- src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1ApplicationTests.java: Clase que contiene los 16 tests unitarios para validar la funcionalidad del detector de mutantes.
 
 # Tests Unitarios
 Los tests unitarios se encuentran en la clase ParcialProgramacion1ApplicationTests.java y cubren los siguientes casos:
