@@ -84,6 +84,10 @@ Body:
 
 La app está subida a render, se la puede consultar en: https://parcial-programacion-1-eros-mariotti.onrender.com
 
+# Swagger | Documentación
+
+Para ver el proyecto en swagger, podés acceder desde el siguiente link: https://parcial-programacion-1-eros-mariotti.onrender.com/swagger-ui/index.html#/
+
 # Tests Unitarios
 Los tests unitarios se encuentran en la clase ParcialProgramacion1ApplicationTests.java y cubren los siguientes casos:
 
@@ -111,6 +115,6 @@ Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
 ./gradlew test
 
-# Swagger | Documentación
+# Diagrama de Secuencia / Arquitectura del sistema.
 
-Para ver el proyecto en swagger, podés acceder desde el siguiente link: https://parcial-programacion-1-eros-mariotti.onrender.com/swagger-ui/index.html#/
+Documentación en formato pdf: file:///F:/Downloads/Documentaci%C3%B3n%20Nivel%203%20-%20Parcial%201%20Programaci%C3%B3n%20-%20Eros%20Mariotti.pdf
