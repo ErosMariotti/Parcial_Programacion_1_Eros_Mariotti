@@ -35,30 +35,25 @@ La tabla cuenta con:
 
 Mostrar estadísticas:
 
-GET /stats
+’’’GET /stats’’’
 
 ¿Qué devolvería?
 
-
+’’’
 {
     "count_human_dna": 0,
     "count_mutant_dna": 0,
     "ratio": 0.0
 }
-
+’’’
 
 Validar si una secuencia es mutante:
 
-
-
-POST /mutant
-
-
+’’’POST /mutant’’’
 
 Body:
 
-
-
+’’’
 {
     "dna": [
         "ACCT", 
@@ -67,18 +62,15 @@ Body:
         "AGAA"
     ]
 }
-
-
+’’’
 
 ¿Qué devolvería?
 
-
-
+’’’
 {
     "mutant": false
-}
-
-
+} 
+’’’
 
 # API Render
 
@@ -113,8 +105,8 @@ Antes de realizar la detección, se llevan a cabo varias validaciones en la entr
 # Ejecución de Tests
 Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
-./gradlew test
+’’’./gradlew test’’’
 
 # Diagrama de Secuencia / Arquitectura del sistema.
 
-Documentación en formato pdf: file:///F:/Downloads/Documentaci%C3%B3n%20Nivel%203%20-%20Parcial%201%20Programaci%C3%B3n%20-%20Eros%20Mariotti.pdf
+Documentación en formato pdf: https://drive.google.com/file/d/1UyV5Kl7OUCPP2_kWgHGFMSGWR9_5zkQ1/view?usp=sharing
