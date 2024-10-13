@@ -35,17 +35,17 @@ La tabla cuenta con:
 
 Mostrar estadísticas:
 
-'''GET /stats'''
+''' GET /stats '''
 
 ¿Qué devolvería?
 
-’’’
+'''
 {
     "count_human_dna": 0,
     "count_mutant_dna": 0,
     "ratio": 0.0
 }
-’’’
+'''
 
 Validar si una secuencia es mutante:
 
