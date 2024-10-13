@@ -35,7 +35,7 @@ La tabla cuenta con:
 
 Mostrar estadísticas:
 
-- GET /stats
+GET /stats
 
 ¿Qué devolvería?
 
@@ -49,14 +49,17 @@ Mostrar estadísticas:
 
 Validar si una secuencia es mutante:
 
-- POST /mutant
+POST /mutant
+
+Body:
 
 {
     "dna": [
-        "ATAA", 
-        "CCGC", 
+        "ACCT", 
+        "CCGT", 
         "TTAT", 
-        "AGAG" ]
+        "AGAA"
+    ]
 }
 
 ¿Qué devolvería?
