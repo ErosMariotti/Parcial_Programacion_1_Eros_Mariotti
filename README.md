@@ -22,6 +22,47 @@ La clase MutantService implementa la lógica para verificar si una secuencia de 
   
 - src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1ApplicationTests.java: Clase que contiene los 16 tests unitarios para validar la funcionalidad del detector de mutantes.
 
+# Persistencia de Datos
+
+Se utiliza una base de datos H2 en modo local para almacenar secuencias de ADN.
+
+La tabla cuenta con:
+- ID - LONG
+- DNA - ARRAY
+- IS_MUTANT - BOOLEAN
+
+# Endpoints 
+
+- Mostrar estadísticas: GET /stats
+
+¿Qué devolvería?
+
+{
+    "count_human_dna": 0,
+    "count_mutant_dna": 1,
+    "ratio": 0.0
+}
+
+- Validar si una secuencia es mutante: POST /mutant
+
+{
+    "dna": [
+        "ATAA", 
+        "CCGC", 
+        "TTAT", 
+        "AGAG" ]
+}
+
+¿Qué devolvería?
+
+{
+    "mutant": false
+}
+
+# API Render
+
+La app está subida a render, se la puede consultar en: https://parcial-programacion-1-eros-mariotti.onrender.com
+
 # Tests Unitarios
 Los tests unitarios se encuentran en la clase ParcialProgramacion1ApplicationTests.java y cubren los siguientes casos:
 
@@ -49,6 +90,6 @@ Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
 ./gradlew test
 
-# Swagger
+# Swagger | Documentación
 
 Para ver el proyecto en swagger, podés acceder desde el siguiente link: https://parcial-programacion-1-eros-mariotti.onrender.com/swagger-ui/index.html#/
