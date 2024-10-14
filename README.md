@@ -71,6 +71,7 @@ Validar si una secuencia es mutante:
 ```
 POST /mutant
 ```
+URL: https://parcial-programacion-1-eros-mariotti.onrender.com/mutant
 
 Body:
 
@@ -84,8 +85,6 @@ Body:
     ]
 }
 ```
-
-URL: https://parcial-programacion-1-eros-mariotti.onrender.com/mutant
 
 ¿Qué devolvería?
 
@@ -132,6 +131,6 @@ Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
 ’’’ git clone ... ’’’
 
-# Diagrama de Secuencia / Arquitectura del sistema.
+# 📈 Diagrama de Secuencia / Arquitectura del sistema.
 
 Documentación en formato pdf: https://drive.google.com/file/d/1UyV5Kl7OUCPP2_kWgHGFMSGWR9_5zkQ1/view?usp=sharing
