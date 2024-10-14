@@ -1,12 +1,12 @@
 # Parcial Programación III - 1 Eros Mariotti
 
-# DNA Mutant Detector
+# 🕵️‍♂️ DNA Mutant Detector
 
 Consiste en una aplicación de Spring Boot creada para detectar si una secuencia de DNA pertenece a un mutante o no.
 
 La clase MutantService implementa la lógica para verificar si una secuencia de ADN es mutante. Busca secuencias de cuatro bases nitrogenadas (A, T, C, G) idénticas en filas, columnas y diagonales de la matriz. Si se encuentran más de una secuencia, el ADN se considera mutante.
 
-# Estructura del Proyecto
+# 🏗 Estructura del Proyecto
 
 - src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1Application.java: Clase principal que inicia la aplicación Spring Boot.
   
@@ -22,7 +22,7 @@ La clase MutantService implementa la lógica para verificar si una secuencia de 
   
 - src/main/java/com/proyec/parcial_programacion_1/ParcialProgramacion1ApplicationTests.java: Clase que contiene los 16 tests unitarios para validar la funcionalidad del detector de mutantes.
 
-# Persistencia de Datos
+# ⌚ Persistencia de Datos
 
 Se utiliza una base de datos H2 en modo local para almacenar secuencias de ADN.
 
@@ -31,7 +31,20 @@ La tabla cuenta con:
 - DNA - ARRAY
 - IS_MUTANT - BOOLEAN
 
-# Endpoints 
+Para ingresar a la base de datos, podés hacerlo desde: 
+
+```
+http://localhost:5050/h2-console
+```
+
+Configuración de H2:
+
+- Driver Class: org.h2.Driver
+- JDBC URL: jdbc:h2:file:./data/mutants_dataBase
+- User Name: sa
+- Password:
+
+# ✔ Endpoints 
 
 Mostrar estadísticas:
 
@@ -39,7 +52,11 @@ Mostrar estadísticas:
 GET /stats
 ```
 
+URL: https://parcial-programacion-1-eros-mariotti.onrender.com/stats
+
 ¿Qué devolvería?
+
+La API devolverá un JSON con estadísticas sobre cuántas secuencias de ADN mutantes y humanas han sido verificadas, así como el ratio.
 
 ```
 {
@@ -68,6 +85,8 @@ Body:
 }
 ```
 
+URL: https://parcial-programacion-1-eros-mariotti.onrender.com/mutant
+
 ¿Qué devolvería?
 
 ```
@@ -76,18 +95,18 @@ Body:
 } 
 ```
 
-# API Render
+# ⚒ API Render
 
 La app está subida a render, se la puede consultar en: https://parcial-programacion-1-eros-mariotti.onrender.com
 
-# Swagger | Documentación
+# 🚀 Swagger | Documentación
 
 Para ver el proyecto en swagger, podés acceder desde el siguiente link: https://parcial-programacion-1-eros-mariotti.onrender.com/swagger-ui/index.html#/
 
-# Tests Unitarios
+# ✅ Tests Unitarios
 Los tests unitarios se encuentran en la clase ParcialProgramacion1ApplicationTests.java y cubren los siguientes casos:
 
-# Manejo de Errores
+# 🚫 Manejo de Errores
 Antes de realizar la detección, se llevan a cabo varias validaciones en la entrada:
 
 - Array vacío: Verifica que se lance una excepción cuando el array de ADN está vacío.
@@ -97,7 +116,7 @@ Antes de realizar la detección, se llevan a cabo varias validaciones en la entr
 - Array con filas nulas: Verifica que se lance una excepción cuando alguna fila del array de ADN es null.
 - Array con caracteres no válidos: Verifica que se lance una excepción cuando el array de ADN contiene caracteres diferentes a 'A', 'T', 'C', 'G'.
 
-# Casos de Prueba
+# ‼ Casos de Prueba
 - Caso 1: Mutante: Verifica que una secuencia de ADN con múltiples secuencias repetitivas sea detectada como mutante.
 - Caso 2: No Mutante: Verifica otro caso de secuencia de ADN mutante.
 - Caso 3: Mutante: Verifica caso de secuencia de ADN mutante.
@@ -106,7 +125,7 @@ Antes de realizar la detección, se llevan a cabo varias validaciones en la entr
 - Caso 6: Mutante: Verifica caso de secuencia de ADN mutante.
 - Caso 7: Mutante: Verifica caso de secuencia de ADN mutante.
 
-# Ejecución de Tests
+# ✔ Ejecución de Tests
 Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
 ’’’./gradlew test’’’
