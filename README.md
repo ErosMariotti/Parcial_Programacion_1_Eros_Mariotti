@@ -127,9 +127,7 @@ Antes de realizar la detección, se llevan a cabo varias validaciones en la entr
 # ✔ Ejecución de Tests
 Para ejecutar los tests unitarios, utiliza el siguiente comando de Gradle:
 
-’’’./gradlew test’’’
-
-’’’ git clone ... ’’’
+```./gradlew test```
 
 # 📈 Diagrama de Secuencia / Arquitectura del sistema.
 
